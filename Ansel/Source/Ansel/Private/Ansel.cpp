@@ -1,5 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
-
+//新增
+#include "Interfaces/IPluginManager.h"
 #include "CoreMinimal.h"   
 #include "Containers/Map.h"
 #include "Containers/StaticBitArray.h"   
@@ -1495,7 +1496,8 @@ public:
 		FString AnselDLLName;	//AnselDll的名字
 
 		//Ansel的发布文件根目录 = 
-		FString AnselBinariesRoot = FPaths::EngineDir() / TEXT("Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/");
+		FString AnselBinariesRoot = FPaths::FPaths::Combine(IPluginManager::Get().FindPlugin(TEXT("Ansel"))->GetBaseDir(),TEXT("/Binaries/ThirdParty/"));
+		UE_LOG(LogAnsel,Error,TEXT("DLLPath:%s"),*AnselBinariesRoot);
 		// common preprocessor fudge to convert macro expansion into string
 		// 用于将宏扩展转换为字符串的常见预处理器软糖
 #define STRINGIFY(X) STRINGIFY2(X)

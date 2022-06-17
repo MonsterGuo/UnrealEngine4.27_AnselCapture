@@ -15,8 +15,8 @@ struct FVector;
 #endif
 #define ANSEL_AnselFunctionLibrary_generated_h
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_SPARSE_DATA
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_RPC_WRAPPERS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_SPARSE_DATA
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execConstrainCameraByGeometry); \
 	DECLARE_FUNCTION(execConstrainCameraByDistance); \
@@ -34,7 +34,7 @@ struct FVector;
 	DECLARE_FUNCTION(execStartSession);
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execConstrainCameraByGeometry); \
 	DECLARE_FUNCTION(execConstrainCameraByDistance); \
@@ -52,7 +52,7 @@ struct FVector;
 	DECLARE_FUNCTION(execStartSession);
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_INCLASS_NO_PURE_DECLS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAnselFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UAnselFunctionLibrary_Statics; \
@@ -61,7 +61,7 @@ public: \
 	DECLARE_SERIALIZER(UAnselFunctionLibrary)
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_INCLASS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesUAnselFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UAnselFunctionLibrary_Statics; \
@@ -70,7 +70,7 @@ public: \
 	DECLARE_SERIALIZER(UAnselFunctionLibrary)
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_STANDARD_CONSTRUCTORS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAnselFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnselFunctionLibrary) \
@@ -83,7 +83,7 @@ private: \
 public:
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_ENHANCED_CONSTRUCTORS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAnselFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -96,28 +96,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnselFunctionLibrary)
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_PRIVATE_PROPERTY_OFFSET
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_17_PROLOG
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_GENERATED_BODY_LEGACY \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_18_PROLOG
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_PRIVATE_PROPERTY_OFFSET \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_SPARSE_DATA \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_RPC_WRAPPERS \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_INCLASS \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_STANDARD_CONSTRUCTORS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_SPARSE_DATA \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_RPC_WRAPPERS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_INCLASS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_GENERATED_BODY \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_PRIVATE_PROPERTY_OFFSET \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_SPARSE_DATA \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_INCLASS_NO_PURE_DECLS \
-	Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_20_ENHANCED_CONSTRUCTORS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_SPARSE_DATA \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -125,7 +125,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ANSEL_API UClass* StaticClass<class UAnselFunctionLibrary>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Engine_Plugins_Runtime_Nvidia_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h
+#define CURRENT_FILE_ID HostProject_Plugins_Ansel_Source_Ansel_Public_AnselFunctionLibrary_h
 
 
 #define FOREACH_ENUM_EUICONTROLEFFECTTARGET(op) \

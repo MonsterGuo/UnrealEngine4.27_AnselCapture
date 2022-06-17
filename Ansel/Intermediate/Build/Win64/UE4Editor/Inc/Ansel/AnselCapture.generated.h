@@ -13,23 +13,23 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ANSEL_AnselCapture_generated_h
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_SPARSE_DATA
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_SPARSE_DATA
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS \
 	virtual void CallSequncePlayer_Implementation(); \
  \
 	DECLARE_FUNCTION(execTestCall); \
 	DECLARE_FUNCTION(execCallSequncePlayer);
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execTestCall); \
 	DECLARE_FUNCTION(execCallSequncePlayer);
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_EVENT_PARMS
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_CALLBACK_WRAPPERS
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS_NO_PURE_DECLS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_EVENT_PARMS
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_CALLBACK_WRAPPERS
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAnselCapture(); \
 	friend struct Z_Construct_UClass_AAnselCapture_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(AAnselCapture)
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS \
 private: \
 	static void StaticRegisterNativesAAnselCapture(); \
 	friend struct Z_Construct_UClass_AAnselCapture_Statics; \
@@ -47,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(AAnselCapture)
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_STANDARD_CONSTRUCTORS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAnselCapture(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAnselCapture) \
@@ -60,7 +60,7 @@ private: \
 public:
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_ENHANCED_CONSTRUCTORS \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAnselCapture(AAnselCapture&&); \
@@ -71,33 +71,33 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAnselCapture)
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_PRIVATE_PROPERTY_OFFSET
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_7_PROLOG \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_EVENT_PARMS
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_7_PROLOG \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_EVENT_PARMS
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_GENERATED_BODY_LEGACY \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_PRIVATE_PROPERTY_OFFSET \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_SPARSE_DATA \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_CALLBACK_WRAPPERS \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_STANDARD_CONSTRUCTORS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_SPARSE_DATA \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_CALLBACK_WRAPPERS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_GENERATED_BODY \
+#define HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_PRIVATE_PROPERTY_OFFSET \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_SPARSE_DATA \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_CALLBACK_WRAPPERS \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS_NO_PURE_DECLS \
-	AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_ENHANCED_CONSTRUCTORS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_SPARSE_DATA \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_CALLBACK_WRAPPERS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -105,7 +105,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ANSEL_API UClass* StaticClass<class AAnselCapture>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AnselChange2_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h
+#define CURRENT_FILE_ID HostProject_Plugins_Ansel_Source_Ansel_Public_AnselCapture_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
