@@ -9,6 +9,10 @@ UnrealEngine4.27_AnselCapture Final Edition
 #### 2.假如你需要更改单帧的保存位置：请安装Nvidia的GeForceExperience组件。
 **没有修改：将默认保存在系统指定的”视频文件夹下方“
 
+## 修改build.cs文件，并且修复部分代码。
+## 实现插件放置位置问题，可放置在任意虚幻插件能识别到的位置，就能被启用。
+## 修改插件图标，方便识别。
+
 （1）点击“设置”
 
 ![Pasted image 20220324120858](https://user-images.githubusercontent.com/39860733/159846088-18804c78-c19a-47ca-8edc-ea44e3d7a3af.png)
