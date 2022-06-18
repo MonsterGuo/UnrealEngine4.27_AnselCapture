@@ -5,7 +5,7 @@ UnrealEngine4.27_AnselCapture Final Edition
  1.修改build.cs文件，并且修复部分代码。
  2.实现插件放置位置问题，可放置在任意虚幻插件能识别到的位置，就能被启用。
  3.修改插件图标，方便识别。
-
+## 使用说明
 一个基于 Unreal Engine 4.27 修改的Nvidia_Ansel plugins 可以用于生成360 或者立体360 影片的工具 
 这是基于Unreal Engine 4.27 的Ansel插件修改而来的版本。
 在开始你的工作之前你需要做好一下准备：
